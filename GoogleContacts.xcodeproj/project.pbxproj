@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		20B09D2D1BA9308C00337CE2 /* GoogleContacts-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 20B09D2E1BA9308D00337CE2 /* Build configuration list for PBXAggregateTarget "GoogleContacts-Universal" */;
+			buildPhases = (
+				20B09D311BA930B200337CE2 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "GoogleContacts-Universal";
+			productName = "GoogleContacts-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		20A5ECF91BA68A8E002B7957 /* GoogleContacts.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A5ECF81BA68A8E002B7957 /* GoogleContacts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A5ED1C1BA68B1B002B7957 /* GOContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A5ED141BA68B1B002B7957 /* GOContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A5ED1D1BA68B1B002B7957 /* GOContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A5ED151BA68B1B002B7957 /* GOContact.m */; };
+		20B09D2C1BA92F1500337CE2 /* libPods-GoogleContacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B09D2B1BA92F1500337CE2 /* libPods-GoogleContacts.a */; };
+		20CAD6821BA910D4000F1F42 /* GoogleContactsSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 20CAD6801BA910D4000F1F42 /* GoogleContactsSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20CAD6831BA910D4000F1F42 /* GoogleContactsSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CAD6811BA910D4000F1F42 /* GoogleContactsSession.m */; settings = {ASSET_TAGS = (); }; };
+		20CAD6911BA928D4000F1F42 /* GoogleContactsSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 20CAD6901BA928D4000F1F42 /* GoogleContactsSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D934D41BA9785F00808534 /* GOContactsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D934D01BA9785F00808534 /* GOContactsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D934D51BA9785F00808534 /* GOContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D934D11BA9785F00808534 /* GOContactsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		20D934D61BA9785F00808534 /* GOContactViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D934D21BA9785F00808534 /* GOContactViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D934D71BA9785F00808534 /* GOContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D934D31BA9785F00808534 /* GOContactViewController.m */; settings = {ASSET_TAGS = (); }; };
+		20D934DA1BA978BF00808534 /* GOContact+Additional.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D934D81BA978BF00808534 /* GOContact+Additional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D934DB1BA978BF00808534 /* GOContact+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D934D91BA978BF00808534 /* GOContact+Additional.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ED79784E2703E5B24BFD0D9 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A5ECF41BA68A8E002B7957 /* GoogleContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleContacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A5ECF71BA68A8E002B7957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A5ECF81BA68A8E002B7957 /* GoogleContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleContacts.h; sourceTree = "<group>"; };
+		20A5ED141BA68B1B002B7957 /* GOContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOContact.h; sourceTree = "<group>"; };
+		20A5ED151BA68B1B002B7957 /* GOContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOContact.m; sourceTree = "<group>"; };
+		20A5ED261BA68F5C002B7957 /* libPods-GoogleContacts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-GoogleContacts.a"; path = "Pods/../build/Debug-iphoneos/libPods-GoogleContacts.a"; sourceTree = "<group>"; };
+		20B09D2B1BA92F1500337CE2 /* libPods-GoogleContacts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-GoogleContacts.a"; path = "Pods/../build/Debug-iphoneos/libPods-GoogleContacts.a"; sourceTree = "<group>"; };
+		20CAD6801BA910D4000F1F42 /* GoogleContactsSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleContactsSession.h; sourceTree = "<group>"; };
+		20CAD6811BA910D4000F1F42 /* GoogleContactsSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleContactsSession.m; sourceTree = "<group>"; };
+		20CAD6901BA928D4000F1F42 /* GoogleContactsSessionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleContactsSessionDelegate.h; sourceTree = "<group>"; };
+		20D934D01BA9785F00808534 /* GOContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOContactsViewController.h; sourceTree = "<group>"; };
+		20D934D11BA9785F00808534 /* GOContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOContactsViewController.m; sourceTree = "<group>"; };
+		20D934D21BA9785F00808534 /* GOContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOContactViewController.h; sourceTree = "<group>"; };
+		20D934D31BA9785F00808534 /* GOContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOContactViewController.m; sourceTree = "<group>"; };
+		20D934D81BA978BF00808534 /* GOContact+Additional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GOContact+Additional.h"; sourceTree = "<group>"; };
+		20D934D91BA978BF00808534 /* GOContact+Additional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GOContact+Additional.m"; sourceTree = "<group>"; };
+		6B6CFFC484A1CEA4EEE82112 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A3AD3E2483B524544663FAD6 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		A88F204CBA9EF5E18127589E /* libPods-GoogleContacts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleContacts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92BBD06483D21EB517C3A5A /* Pods-GoogleContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleContacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleContacts/Pods-GoogleContacts.release.xcconfig"; sourceTree = "<group>"; };
+		C6201E7E08CF8BFFB23264F2 /* Pods-GoogleContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleContacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleContacts/Pods-GoogleContacts.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20A5ECF01BA68A8E002B7957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B09D2C1BA92F1500337CE2 /* libPods-GoogleContacts.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B6939581ECE2510E0AE8577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20B09D2B1BA92F1500337CE2 /* libPods-GoogleContacts.a */,
+				20A5ED261BA68F5C002B7957 /* libPods-GoogleContacts.a */,
+				A88F204CBA9EF5E18127589E /* libPods-GoogleContacts.a */,
+				1ED79784E2703E5B24BFD0D9 /* libPods-Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20A5ECF51BA68A8E002B7957 /* GoogleContacts */ = {
+			isa = PBXGroup;
+			children = (
+				20A5ECF81BA68A8E002B7957 /* GoogleContacts.h */,
+				20CAD6901BA928D4000F1F42 /* GoogleContactsSessionDelegate.h */,
+				20CAD6801BA910D4000F1F42 /* GoogleContactsSession.h */,
+				20CAD6811BA910D4000F1F42 /* GoogleContactsSession.m */,
+				20A5ED141BA68B1B002B7957 /* GOContact.h */,
+				20A5ED151BA68B1B002B7957 /* GOContact.m */,
+				20D934D81BA978BF00808534 /* GOContact+Additional.h */,
+				20D934D91BA978BF00808534 /* GOContact+Additional.m */,
+				20D934D01BA9785F00808534 /* GOContactsViewController.h */,
+				20D934D11BA9785F00808534 /* GOContactsViewController.m */,
+				20D934D21BA9785F00808534 /* GOContactViewController.h */,
+				20D934D31BA9785F00808534 /* GOContactViewController.m */,
+				20A5ECF61BA68A8E002B7957 /* Supporting Files */,
+			);
+			path = GoogleContacts;
+			sourceTree = "<group>";
+		};
+		20A5ECF61BA68A8E002B7957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20A5ECF71BA68A8E002B7957 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7934BF61B9A0D9400E3A9DF = {
+			isa = PBXGroup;
+			children = (
+				20A5ECF51BA68A8E002B7957 /* GoogleContacts */,
+				D7934C001B9A0D9400E3A9DF /* Products */,
+				E4F03B0CE6BADCDCA5B7B9C3 /* Pods */,
+				1B6939581ECE2510E0AE8577 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7934C001B9A0D9400E3A9DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20A5ECF41BA68A8E002B7957 /* GoogleContacts.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4F03B0CE6BADCDCA5B7B9C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6201E7E08CF8BFFB23264F2 /* Pods-GoogleContacts.debug.xcconfig */,
+				A92BBD06483D21EB517C3A5A /* Pods-GoogleContacts.release.xcconfig */,
+				6B6CFFC484A1CEA4EEE82112 /* Pods-Example.debug.xcconfig */,
+				A3AD3E2483B524544663FAD6 /* Pods-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20A5ECF11BA68A8E002B7957 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CAD6821BA910D4000F1F42 /* GoogleContactsSession.h in Headers */,
+				20D934DA1BA978BF00808534 /* GOContact+Additional.h in Headers */,
+				20CAD6911BA928D4000F1F42 /* GoogleContactsSessionDelegate.h in Headers */,
+				20D934D41BA9785F00808534 /* GOContactsViewController.h in Headers */,
+				20D934D61BA9785F00808534 /* GOContactViewController.h in Headers */,
+				20A5ED1C1BA68B1B002B7957 /* GOContact.h in Headers */,
+				20A5ECF91BA68A8E002B7957 /* GoogleContacts.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20A5ECF31BA68A8E002B7957 /* GoogleContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A5ED0D1BA68A8E002B7957 /* Build configuration list for PBXNativeTarget "GoogleContacts" */;
+			buildPhases = (
+				A13518E05A21BA5C6DECCD78 /* Check Pods Manifest.lock */,
+				20A5ECEF1BA68A8E002B7957 /* Sources */,
+				20A5ECF01BA68A8E002B7957 /* Frameworks */,
+				20A5ECF11BA68A8E002B7957 /* Headers */,
+				20A5ECF21BA68A8E002B7957 /* Resources */,
+				565A956E9632628C6174D9EE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleContacts;
+			productName = GoogleContacts;
+			productReference = 20A5ECF41BA68A8E002B7957 /* GoogleContacts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7934BF71B9A0D9400E3A9DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Alto, LLC";
+				TargetAttributes = {
+					20A5ECF31BA68A8E002B7957 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					20B09D2D1BA9308C00337CE2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = D7934BFA1B9A0D9400E3A9DF /* Build configuration list for PBXProject "GoogleContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7934BF61B9A0D9400E3A9DF;
+			productRefGroup = D7934C001B9A0D9400E3A9DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20A5ECF31BA68A8E002B7957 /* GoogleContacts */,
+				20B09D2D1BA9308C00337CE2 /* GoogleContacts-Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20A5ECF21BA68A8E002B7957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20B09D311BA930B200337CE2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "######################\n# Options\n######################\n\nREVEAL_ARCHIVE_IN_FINDER=false\n\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\"\n\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework\"\n\n\n######################\n# Build Frameworks\n######################\n\nxcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -sdk iphonesimulator -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1\n\nxcodebuild -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1\n\n######################\n# Create directory for universal\n######################\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${FRAMEWORK}\"\n\n\n######################\n# Copy files Framework\n######################\n\ncp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\n\n######################\n# Make an universal binary\n######################\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/${FRAMEWORK_NAME}\" \"${DEVICE_LIBRARY_PATH}/${FRAMEWORK_NAME}\" -create -output \"${FRAMEWORK}/${FRAMEWORK_NAME}\" | echo\n\n# For Swift framework, Swiftmodule needs to be copied in the universal framework\nif [ -d \"${SIMULATOR_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\ncp -f ${SIMULATOR_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/* \"${FRAMEWORK}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" | echo\n                                                                      fi\n                                                                      \n                                                                      if [ -d \"${DEVICE_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\n                                                                      cp -f ${DEVICE_LIBRARY_PATH}/Modules/${FRAMEWORK_NAME}.swiftmodule/* \"${FRAMEWORK}/Modules/${FRAMEWORK_NAME}.swiftmodule/\" | echo\n                                                                      fi\n                                                                      \n                                                                      ######################\n                                                                      # On Release, copy the result to release directory\n                                                                      ######################\n                                                                      OUTPUT_DIR=\"${PROJECT_DIR}/Output/${FRAMEWORK_NAME}-${CONFIGURATION}-iphoneuniversal/\"\n                                                                      \n                                                                      rm -rf \"$OUTPUT_DIR\"\n                                                                      mkdir -p \"$OUTPUT_DIR\"\n                                                                      \n                                                                      cp -r \"${FRAMEWORK}\" \"$OUTPUT_DIR\"\n                                                                      \n                                                                      if [ ${REVEAL_ARCHIVE_IN_FINDER} = true ]; then\n                                                                      open \"${OUTPUT_DIR}/\"\n                                                                      fi";
+		};
+		565A956E9632628C6174D9EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleContacts/Pods-GoogleContacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13518E05A21BA5C6DECCD78 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20A5ECEF1BA68A8E002B7957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CAD6831BA910D4000F1F42 /* GoogleContactsSession.m in Sources */,
+				20D934D51BA9785F00808534 /* GOContactsViewController.m in Sources */,
+				20D934DB1BA978BF00808534 /* GOContact+Additional.m in Sources */,
+				20D934D71BA9785F00808534 /* GOContactViewController.m in Sources */,
+				20A5ED1D1BA68B1B002B7957 /* GOContact.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20A5ED0E1BA68A8E002B7957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6201E7E08CF8BFFB23264F2 /* Pods-GoogleContacts.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleContacts/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devinross.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20A5ED0F1BA68A8E002B7957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92BBD06483D21EB517C3A5A /* Pods-GoogleContacts.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = GoogleContacts/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devinross.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20B09D2F1BA9308D00337CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20B09D301BA9308D00337CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7934C231B9A0D9400E3A9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7934C241B9A0D9400E3A9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20A5ED0D1BA68A8E002B7957 /* Build configuration list for PBXNativeTarget "GoogleContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A5ED0E1BA68A8E002B7957 /* Debug */,
+				20A5ED0F1BA68A8E002B7957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B09D2E1BA9308D00337CE2 /* Build configuration list for PBXAggregateTarget "GoogleContacts-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B09D2F1BA9308D00337CE2 /* Debug */,
+				20B09D301BA9308D00337CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7934BFA1B9A0D9400E3A9DF /* Build configuration list for PBXProject "GoogleContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7934C231B9A0D9400E3A9DF /* Debug */,
+				D7934C241B9A0D9400E3A9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7934BF71B9A0D9400E3A9DF /* Project object */;
+}

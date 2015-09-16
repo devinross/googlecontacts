@@ -1,0 +1,12 @@
+Google Contacts
+===============
+Google's API for iOS are fairly confusing. And you need to rely on cocoapods to get all the dependencies in order. Not fun. This repo provides some easy to adopt classes to quickly 
+
+
+## Installation
+The easiest route is to not even clone the repo, but just download a release from this project's releases tab. Then just drag in the .framework into your project and you'll be good to go. Or you can clone this repo, `pod install` and build an aggregate framework that you can then drag into your project. The aggregate framework will appear in the Output folder at the root of the clone's directory when everything compiles.
+
+In your Xcode project, you need to include the `GoogleService-Info.plist` with the proper information that you can obtain [console.developers.google.com](https://console.developers.google.com/project). Also, in your target's info tab, add the two URL Types you find in the Example.
+
+
+Follow me on twitter [@devin_ross](http://twitter.com/devin_ross).
