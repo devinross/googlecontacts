@@ -30,6 +30,7 @@
  */
 
 @import UIKit;
+@class GOContact;
 
 @interface GOContactsViewController : UITableViewController
 
@@ -39,5 +40,8 @@
 @property (nonatomic,assign) BOOL showSortCell;
 @property (strong, nonatomic) UISearchController *searchController;
 @property (nonatomic,strong) UIView *loadingIndicatorView;
+
+
+- (GOContact*) contactAtIndexPath:(NSIndexPath*)indexPath;
 
 @end
